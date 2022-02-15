@@ -1,0 +1,29 @@
+:root{
+    --base-color: #F5F5FA;
+    --title-color: #373737;
+    --sub-color: #848199;
+    --btn-color: #FF8E3C1A;
+    --btn-color-text: #FF8E3C;
+}
+body{
+    background-color: var(--base-color);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+.header{
+    background-color: aqua;
+    width: 90%;
+    margin: 40px auto;
+}
+.title{
+    color: var(--title-color);
+    font-weight: 600;
+    font-size: 56px;
+}
+.subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    color:var(--sub-color)
+}
